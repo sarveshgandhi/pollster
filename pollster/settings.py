@@ -25,7 +25,7 @@ SECRET_KEY = 'dfgghb1!+qzf=kyboijlpq@gh1^&dgx_jt_)=6l=5g)hk+(w=k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pollster1729.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    # 'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
 ]
 
